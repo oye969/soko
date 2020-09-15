@@ -4,6 +4,11 @@
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
 }
+
+.App {
+  text-align: center;
+
+}
 .Header {
   background: rgb(231, 217, 217);
   height: 103px;
@@ -13,7 +18,7 @@
 
 }
 .Img_Logo {
-  margin: 20px;
+  margin: 25px;
   
 }
 .Header_Text {
@@ -24,7 +29,7 @@
 .Header_Input {
   display: flex;
   height: 40px;
-  width: 350px;
+  width: 400px;
   outline-color: #db792e;
   border: none;
   margin-left: 40px;
@@ -55,4 +60,11 @@
   color: #000000;
   margin: 20px;
   font-size: 14px;
+}
+.Header_Checkout {
+  text-decoration: none;
+  color: #000000;
+  margin: 20px;
+  font-size: 14px;
+  margin-top: 15px;;
 }

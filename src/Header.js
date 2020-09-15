@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import SearchIcon from "@material-ui/icons/Search";
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket"
 
 
 
@@ -38,6 +39,7 @@ function Header() {
 
             <Link to="/Checkout" className="Header_Checkout">
                 <div className="Header_CheckoutDiv">
+                    <ShoppingBasketIcon />
                     <span>0</span>
                 </div>   
             </Link>
