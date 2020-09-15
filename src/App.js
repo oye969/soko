@@ -10,7 +10,7 @@ function App() {
       <Switch>
       <Route path="/track">
           <Header />
-          <h1>Track Your Order</h1>
+         <h1>Track Your Order</h1>
         </Route>
       <Route path="/orders">
           <Header />
