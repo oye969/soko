@@ -16,10 +16,23 @@ function Header() {
         <div>
             <SearchIcon className="Header_Search" />
         </div>
+
         <div className="Header_more">
             <Link to="/login" className="Header_Login">
                 <div>
                     <span>Sign In</span>
+                </div>   
+            </Link>
+
+            <Link to="/login" className="Header_Orders">
+                <div>
+                    <span>Orders</span>
+                </div>   
+            </Link>
+
+            <Link to="/login" className="Header_Track">
+                <div>
+                    <span>Track Order</span>
                 </div>   
             </Link>
 
