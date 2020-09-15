@@ -9,23 +9,25 @@
   height: 103px;
   display: flex;
   align-items: center;
+  object-fit: contain;
 
 }
 .Img_Logo {
-  margin: 20px 20px;
+  margin: 20px;
   
 }
 .Header_Text {
-  font-size: 34px;
+  font-size: 24px;
+  margin-left: -15px;
 
 }
 .Header_Input {
   display: flex;
   height: 40px;
-  width: 500px;
+  width: 350px;
   outline-color: #db792e;
   border: none;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .Header_Search {
   background-color: gray;
@@ -38,15 +40,19 @@
 .Header_Login  {
   text-decoration: none;
   color: #000000;
-  margin: 30px;
+  margin: 20px;
+  margin-left: 40px;
+  font-size: 14px;
 }
 .Header_Orders {
   text-decoration: none;
   color: #000000;
-  margin: 30px;
+  margin: 20px;
+  font-size: 14px;
 }
 .Header_Track {
   text-decoration: none;
   color: #000000;
-  margin: 30px;
+  margin: 20px;
+  font-size: 14px;
 }

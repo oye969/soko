@@ -11,7 +11,7 @@ function Header() {
         <Link to="/">
             <img className="Img_Logo" src="./logo.png" alt="logo"/>
         </Link>
-            <h1 className="Header_Text">SOKO</h1><h2>...all African and Carribean</h2>
+            <h1 className="Header_Text">SOKO</h1><h4>...all African and Carribean</h4>
         <input type="text" className="Header_Input"/>
         <div>
             <SearchIcon className="Header_Search" />
@@ -36,6 +36,11 @@ function Header() {
                 </div>   
             </Link>
 
+            <Link to="/Checkout" className="Header_Checkout">
+                <div className="Header_CheckoutDiv">
+                    <span>0</span>
+                </div>   
+            </Link>
         </div>
     
     </nav>
