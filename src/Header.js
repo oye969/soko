@@ -11,7 +11,7 @@ function Header() {
         <Link to="/">
             <img className="Img_Logo" src="./logo.png" alt="logo"/>
         </Link>
-            <h1 className="Header_Text">SOKO ...all African and Carribean</h1>
+            <h1 className="Header_Text">SOKO</h1><h2>...all African and Carribean</h2>
         <input type="text" className="Header_Input"/>
         <div>
             <SearchIcon className="Header_Search" />

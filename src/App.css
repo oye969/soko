@@ -6,16 +6,28 @@
 }
 .Header {
   background: rgb(231, 217, 217);
-  height: 160px;
+  height: 103px;
+  display: flex;
+  align-items: center;
 
 }
 .Img_Logo {
   margin: 20px 20px;
+  
 }
 .Header_Text {
-  margin-left: 20px;
   font-size: 34px;
+
 }
 .Header_Input {
-  
+  display: flex;
+  height: 40px;
+  width: 500px;
+  outline-color: #db792e;
+  border: none;
+}
+.Header_Search {
+  background-color: gray;
+  padding: 8px;
+  margin-top: 3.5px;
 }
