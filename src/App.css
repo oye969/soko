@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 * {
   margin: 0px;
@@ -25,6 +25,7 @@
   width: 500px;
   outline-color: #db792e;
   border: none;
+  margin-left: 50px;
 }
 .Header_Search {
   background-color: gray;
@@ -33,5 +34,19 @@
 }
 .Header_more {
   display: flex;
-  
+}
+.Header_Login  {
+  text-decoration: none;
+  color: #000000;
+  margin: 30px;
+}
+.Header_Orders {
+  text-decoration: none;
+  color: #000000;
+  margin: 30px;
+}
+.Header_Track {
+  text-decoration: none;
+  color: #000000;
+  margin: 30px;
 }

@@ -24,13 +24,13 @@ function Header() {
                 </div>   
             </Link>
 
-            <Link to="/login" className="Header_Orders">
+            <Link to="/Orders" className="Header_Orders">
                 <div>
                     <span>Orders</span>
                 </div>   
             </Link>
 
-            <Link to="/login" className="Header_Track">
+            <Link to="/Track" className="Header_Track">
                 <div>
                     <span>Track Order</span>
                 </div>   
