@@ -40,7 +40,7 @@ function Header() {
             <Link to="/Checkout" className="Header_Checkout">
                 <div className="Header_CheckoutDiv">
                     <ShoppingBasketIcon />
-                    <span>0</span>
+                    <span className="Counter">0</span>
                 </div>   
             </Link>
         </div>
