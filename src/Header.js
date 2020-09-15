@@ -16,7 +16,14 @@ function Header() {
         <div>
             <SearchIcon className="Header_Search" />
         </div>
-        
+        <div className="Header_more">
+            <Link to="/login" className="Header_Login">
+                <div>
+                    <span>Sign In</span>
+                </div>   
+            </Link>
+
+        </div>
     
     </nav>
  
