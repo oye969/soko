@@ -8,10 +8,20 @@ function App() {
     <Router>
       <div className="App">
       <Switch>
+      <Route path="/track">
+          <Header />
+          <h1>Track Your Order</h1>
+        </Route>
+      <Route path="/orders">
+          <Header />
+          <h1>Orders</h1>
+        </Route>
         <Route path="/checkout">
+          <Header />
           <h1>Checkout</h1>
         </Route>
         <Route path="/login">
+          <Header />
         <h1>Login Page</h1>
         </Route>
         <Route path="/">
