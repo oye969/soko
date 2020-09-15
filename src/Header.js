@@ -13,7 +13,10 @@ function Header() {
         </Link>
             <h1 className="Header_Text">SOKO ...all African and Carribean</h1>
         <input type="text" className="Header_Input"/>
-        <SearchIcon className="Header_Search" />
+        <div>
+            <SearchIcon className="Header_Search" />
+        </div>
+        
     
     </nav>
  
