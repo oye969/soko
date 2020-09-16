@@ -21,7 +21,7 @@ function Product(
                 }
 
             </div>
-            
+            <img src={image} alt="wheat" />
         </div>
     )
 }
