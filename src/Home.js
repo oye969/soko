@@ -11,7 +11,9 @@ function Home() {
             title="Wheat Flour"
             price={5.99}
             rating={5}
-            image = <img src ="./w.jpg"  className=""  alt="" />
+            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
+            />
+            
             
         </div>
     )
