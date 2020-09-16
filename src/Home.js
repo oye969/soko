@@ -1,5 +1,5 @@
-import React from 'react'
-import Product from './Product'
+import React from 'react';
+import Product from './Product';
 
 function Home() {
     return (
@@ -11,8 +11,8 @@ function Home() {
             title="Wheat Flour"
             price={5.99}
             rating={5}
-            image=""
-            />
+            image = <img src ="./w.jpg"  className=""  alt="" />
+            
         </div>
     )
 }

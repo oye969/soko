@@ -78,3 +78,10 @@
 .Home_Banner {
   margin-top: 15px;
 }
+.Product {
+  
+}
+.Product_rating {
+  display: inline-flex;
+  margin: 0 auto;
+}
