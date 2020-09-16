@@ -5,25 +5,25 @@ function Product(
 ) {
     return (
         <div className="Product">
-            <p className="Product_title">{title}</p>
-            <p>
-                <small>$</small>
-                <strong>{price}</strong>
-            </p>
-            <div className="Product_rating">
+            
+                <p className="Product_title">{title}</p>
+                <p>
+                    <small>$</small>
+                    <strong>{price}</strong>
+                </p>
+                <div className="Product_rating">
                 {
                     Array(rating)
                     .fill()
                     .map((_)=> (
-                        <p>&#11088;</p>
-                    )
-                    )           
+                        <span>&#11088;</span>
+                    ))           
                 }
 
+                </div>
             </div>
-            <img src={image} alt="wheat" />
-        </div>
-    )
+       
+    );
 }
 
 export default Product;
