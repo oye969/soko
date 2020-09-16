@@ -83,5 +83,11 @@
 }
 .Product_rating {
   display: inline-flex;
-  margin: 0 auto;
+  .Product {
+  
+  }
+  .Product_rating {
+    display: inline-flex;
+    margin: 0 auto;
+  }
 }

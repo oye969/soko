@@ -21,7 +21,9 @@ function Product(
                 }
 
                 </div>
-                <img src={image} alt="" />            
+                <div>
+                <img src={image} alt="" />  
+                </div>          
         </div>
        
     );
