@@ -79,15 +79,10 @@
   margin-top: 15px;
 }
 .Product {
-  
+  display: flex;
+  flex-direction: column;
 }
 .Product_rating {
-  display: inline-flex;
-  .Product {
-  
-  }
-  .Product_rating {
     display: inline-flex;
     margin: 0 auto;
-  }
 }
