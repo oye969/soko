@@ -9,7 +9,7 @@ function Product(
                 <p className="Product_title">{title}</p>
                 <p>
                     <small>$</small>
-                    <strong>{price}</strong>
+                    {price}
                 </p>
                 <div className="Product_rating">
                 {
