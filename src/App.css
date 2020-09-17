@@ -3,6 +3,7 @@
 * {
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
+ 
 }
 
 .App {
@@ -76,7 +77,7 @@
   
 }
 .Home_Banner {
-  margin-top: 15px;
+  margin-top: 20px;
   
 }
 .Product {
@@ -115,4 +116,23 @@ button {
 }
 button:hover {
   background-color: #db792e;
+}
+.Home_rowa {
+  display:flex;
+  justify-content: center;
+  
+}
+.Home_rowaa {
+  padding: 15px;
+}
+.Home_rowbb {
+  padding: 15px;
+}
+.Home_rowcc {
+  padding: 15px;
+}
+.Home_rowb {
+  display:flex;
+  justify-content: center;
+  
 }

@@ -16,7 +16,7 @@ function Product(
                     Array(rating)
                     .fill()
                     .map((_)=> (
-                        <span>&#11088;</span>
+                        <span role="img" aria-label="star">&#11088;</span> 
                     ))           
                 }
 
