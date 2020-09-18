@@ -75,8 +75,6 @@
 .Counter {
  margin-top: 19px;
  
-
-  
 }
 .Home_Banner {
   margin-top: 20px;
@@ -137,4 +135,13 @@ button:hover {
   display:flex;
   justify-content: center;
   
+}
+.checkout_h {
+  background-color: #db792e;
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  letter-spacing: 3px;
 }

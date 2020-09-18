@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { useStateValue } from './StateProvider';
+
 
 function Checkout() {
+    const [{ basket }, dispatch] = useStateValue();    
+
+
     return (
-        <div>
+        <div className="checkout">
+            <h1 className="checkout_h">Checkout</h1>
             
         </div>
     )
