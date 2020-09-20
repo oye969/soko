@@ -14,9 +14,9 @@ function App() {
           <Header />
          <h1>Track Your Order</h1>
         </Route>
-      <Route path="/orders">
+      <Route path="/coupons">
           <Header />
-          <h1>Orders</h1>
+          <h1>Coupons</h1>
         </Route>
         <Route path="/checkout">
           <Header />

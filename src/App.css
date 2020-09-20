@@ -52,7 +52,7 @@
   margin-left: 40px;
   font-size: 14px;
 }
-.Header_Orders {
+.Header_Coupons{
   text-decoration: none;
   color: #000000;
   margin: 20px;
@@ -116,6 +116,7 @@ button {
 }
 button:hover {
   background-color: #db792e;
+  
 }
 .Home_rowa {
   display:flex;
@@ -124,6 +125,7 @@ button:hover {
 }
 .Home_rowaa {
   padding: 15px;
+  
 }
 .Home_rowbb {
   padding: 15px;
@@ -143,5 +145,18 @@ button:hover {
   margin: 0 auto;
   margin-top: 20px;
   border-radius: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+.checkout_e {
+  margin-top: 15px;
+  font-size: 24px;
+}
+.checkout_f {
+font-size: 20px;
+margin-top: 8px;
+}
+.checkout_b {
+  margin-top: 15px;
+  font-size: 24px;;
 }

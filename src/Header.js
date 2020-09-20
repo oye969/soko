@@ -28,9 +28,9 @@ function Header() {
                 </div>   
             </Link>
 
-            <Link to="/Orders" className="Header_Orders">
+            <Link to="/Coupons" className="Header_Coupons">
                 <div>
-                    <span>Orders</span>
+                    <span>Coupons</span>
                 </div>   
             </Link>
 
