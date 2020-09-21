@@ -1,6 +1,7 @@
 import React from 'react';
 import Product from './Product';
 
+
 function Home() {
     return (
         <div className="Home">
@@ -9,82 +10,29 @@ function Home() {
             <div className="Home_rowaa">
             <Product className="Home_dis"
             id="123245"
-            title="Wheat Flour"
-            price={5.99}
+            title="Cassava"
+            price={8.99}
             rating={5}
-            image ="https://answersafrica.com/wp-content/uploads/2013/04/Okra.jpg"
+            image ="./cassava.jpg"
             />
             </div>
 
             <div className="Home_rowbb">
             <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
+            id="234245"
+            title="Ghana Yam"
+            price={9.99}
             rating={5}
-            image ="https://answersafrica.com/wp-content/uploads/2013/04/watermelon.jpg"
+            image ="./yam.jpg"
             />
             </div>
             <div className="Home_rowcc">
             <Product
-            id="123245"
+            id="564745"
             title="Wheat Flour"
             price={5.99}
-            rating={5}
-            image ="https://answersafrica.com/wp-content/uploads/2013/04/plantain.jpg"
-            />
-            </div>
-            </div>
-
-
-            <div className="Home_rowb">
-            <div className="Home_rowaa">
-            <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
-            rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
-            />
-            </div>
-            <div className="Home_rowbb">
-            <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
-            rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
-            />
-            </div>
-            </div>
-
-
-            <div className="Home_rowa">
-            <div className="Home_rowaa">
-            <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
-            rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
-            />
-            </div>
-            <div className="Home_rowbb">
-            <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
-            rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
-            />
-            </div>
-            <div className="Home_rowcc">
-            <Product
-            id="123245"
-            title="Palm Oil"
-            price={10.99}
             rating={4}
-            image ="https://answersafrica.com/wp-content/uploads/2013/04/palm_oil.jpg"
+            image ="./w.jpeg"
             />
             </div>
             </div>
@@ -92,20 +40,20 @@ function Home() {
             <div className="Home_rowb">
             <div className="Home_rowaa">
             <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
+            id="878785"
+            title="Africa Shea Butter"
+            price={12.99}
             rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
+            image ="./shea.jpg"
             />
             </div>
             <div className="Home_rowbb">
             <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
+            id="675935"
+            title="Paani Meat Pie"
+            price={7.99}
             rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
+            image ="./pie.jpg"
             />
             </div>
             </div>
@@ -113,29 +61,80 @@ function Home() {
             <div className="Home_rowa">
             <div className="Home_rowaa">
             <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
+            id="516936"
+            title="Paani Goat Suya"
+            price={15.99}
             rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
+            image ="./suya.jpg"
             />
             </div>
             <div className="Home_rowbb">
             <Product
-            id="123245"
-            title="Wheat Flour"
-            price={5.99}
+            id="425945"
+            title="Okra"
+            price={4.99}
             rating={5}
-            image ="https://goodeggs2.imgix.net/product_photos/nnVTRjdTy3zIiaaSSx7A_2017_0926_KingArthur_OrganicWholeWheatFlour_2lbs%20%28b4cbfcae34e21fd306172bd53d691301573b7078%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop"
+            image ="./okra.jpg"
             />
             </div>
             <div className="Home_rowcc">
             <Product
-            id="123245"
-            title="Palm Oil"
+            id="213605"
+            title="Zomi African Palm Oil"
+            price={10.99}
+            rating={5}
+            image ="./palm.jpg"
+            />
+            </div>
+            </div>
+
+            <div className="Home_rowb">
+            <div className="Home_rowaa">
+            <Product
+            id="675910"
+            title="Paani Egusi Soup"
+            price={9.99}
+            rating={5}
+            image ="./egusi.jpg"
+            />
+            </div>
+            <div className="Home_rowbb">
+            <Product
+            id="352685"
+            title="Taste of Caribbean Plantain Chips"
+            price={3.99}
+            rating={5}
+            image ="./chip.jpg"
+            />
+            </div>
+            </div>
+
+            <div className="Home_rowa">
+            <div className="Home_rowaa">
+            <Product
+            id="897943"
+            title="Ola Ola Pounded Yam"
+            price={9.99}
+            rating={4}
+            image ="./iyan.jpg"
+            />
+            </div>
+            <div className="Home_rowbb">
+            <Product
+            id="678585"
+            title="Paani Steamed Ugwu"
+            price={6.99}
+            rating={5}
+            image ="./ugwu.jpg"
+            />
+            </div>
+            <div className="Home_rowcc">
+            <Product
+            id="657402"
+            title="Gari Ijebu"
             price={10.99}
             rating={4}
-            image ="https://answersafrica.com/wp-content/uploads/2013/04/palm_oil.jpg"
+            image ="./gari.jpg"
             />
             </div>
             </div>

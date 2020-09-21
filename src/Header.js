@@ -11,11 +11,12 @@ function Header() {
 
 
     return (
+       
     <nav className="Header">
         <Link to="/">
             <img className="Img_Logo" src="./logo.png" alt="logo"/>
         </Link>
-            <h1 className="Header_Text">SOKO</h1><h4>...all African and Carribean</h4>
+            <h1 className="Header_Text">SOKO</h1><h4>...all African and Caribbean</h4>
         <input type="text" className="Header_Input"/>
         <div>
             <SearchIcon className="Header_Search" />
@@ -49,7 +50,7 @@ function Header() {
         </div>
     
     </nav>
- 
+
     );
 }
 

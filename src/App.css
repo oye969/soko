@@ -11,7 +11,7 @@
 
 }
 .Header {
-  background: rgb(231, 217, 217);
+  background: rgb(235, 206, 206);
   height: 103px;
   display: flex;
   align-items: center;
@@ -21,12 +21,13 @@
 
 }
 .Img_Logo {
-  margin: 20px;
+  margin: 18px;
+  padding-left: 20px;
   
 }
 .Header_Text {
   font-size: 24px;
-  margin-left: -15px;
+  margin-left: -10px;
 
 }
 .Header_Input {
@@ -35,7 +36,8 @@
   width: 400px;
   outline-color: #db792e;
   border: none;
-  margin-left: 40px;
+  margin-left: 350px;
+  
 }
 .Header_Search {
   background-color: gray;
@@ -44,25 +46,26 @@
 }
 .Header_more {
   display: flex;
+  margin-left: 250px;
 }
 .Header_Login  {
   text-decoration: none;
   color: #000000;
   margin: 20px;
-  margin-left: 40px;
-  font-size: 14px;
+  margin-left: 30px;
+  font-size: 16px;
 }
 .Header_Coupons{
   text-decoration: none;
   color: #000000;
   margin: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .Header_Track {
   text-decoration: none;
   color: #000000;
   margin: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .Header_Checkout {
   text-decoration: none;
@@ -73,7 +76,7 @@
   
 }
 .Counter {
- margin-top: 19px;
+ margin-top: 21px;
  
 }
 .Home_Banner {
@@ -159,4 +162,36 @@ margin-top: 8px;
 .checkout_b {
   margin-top: 15px;
   font-size: 24px;;
+}
+.checkoutProduct {
+  display: flex;
+  margin-top: 5px;
+  padding: 20px;
+ 
+  
+  
+}
+.checkoutProduct_img {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+  margin-left: 60px;
+  
+}
+
+.checkoutProduct_info {
+padding-left: 100px;
+margin-top: 15px;
+line-height: 35px;
+
+ 
+}
+.btn_checkout {
+  width: 120px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.checkoutProduct_title {
+  font-weight: 800;
 }
