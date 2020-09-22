@@ -4,16 +4,17 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
+import Login from './Login';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-      <Switch>
+      <Router>
+          <div className="App">
+        <Switch>
       <Route path="/track">
-          <Header />
-         <h1>Track Your Order</h1>
-        </Route>
+        <Header />
+          <h1>Track Your Order</h1>
+      </Route>
       <Route path="/coupons">
           <Header />
           <h1>Coupons</h1>
@@ -24,7 +25,7 @@ function App() {
         </Route>
         <Route path="/login">
           <Header />
-        <h1>Login Page</h1>
+        <Login />
         </Route>
         <Route path="/">
           <Header />

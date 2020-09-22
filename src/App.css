@@ -195,3 +195,53 @@ line-height: 35px;
 .checkoutProduct_title {
   font-weight: 800;
 }
+.checkout_right {
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+ 
+}
+.subtotal_btn {
+  width: 120px;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.login_container {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #dbd0c5;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+h3 {
+  margin-top: 15px;
+
+}
+.input_login {
+  height: 25px;
+  width: 220px;
+  outline-color: #db792e;
+  border: 2px solid #d49565;
+  margin-top: 5px;
+
+}
+.button_login_a {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.button_login_b {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+h4 {
+  padding: 5px;
+}
