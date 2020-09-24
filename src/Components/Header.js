@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../State/StateProvider';
 
 
 
@@ -14,10 +14,10 @@ function Header() {
        
     <nav className="Header">
         <Link to="/">
-            <img className="Img_Logo" src="./logo.png" alt="logo"/>
+            <img className="Img_Logo" src="./img/logo.png" alt="logo"/>
         </Link>
             <h1 className="Header_Text">SOKO</h1><h4>...all African and Caribbean</h4>
-        <input type="text" className="Header_Input"/>
+            <input type="text" className="Header_Input"/>
         <div>
             <SearchIcon className="Header_Search" />
         </div>
@@ -46,7 +46,7 @@ function Header() {
                     <ShoppingBasketIcon />
                 </div>   
             </Link>
-            <div className="Counter">{basket?.length}</div>
+                <div className="Counter">{basket?.length}</div>
         </div>
     
     </nav>

@@ -5,7 +5,7 @@ import Product from './Product';
 function Home() {
     return (
         <div className="Home">
-            <img src ="./dd.png"  className="Home_Banner"  alt="Banner" />
+            <img src ="./img/dd.png"  className="Home_Banner"  alt="Banner" />
             <div className="Home_rowa">
             <div className="Home_rowaa">
             <Product className="Home_dis"
@@ -13,7 +13,7 @@ function Home() {
             title="Cassava"
             price={8.99}
             rating={5}
-            image ="./cassava.jpg"
+            image ="/img/cassava.jpg"
             />
             </div>
 
@@ -23,7 +23,7 @@ function Home() {
             title="Ghana Yam"
             price={9.99}
             rating={5}
-            image ="./yam.jpg"
+            image ="/img/yam.jpg"
             />
             </div>
             <div className="Home_rowcc">
@@ -32,7 +32,7 @@ function Home() {
             title="Wheat Flour"
             price={5.99}
             rating={4}
-            image ="./w.jpeg"
+            image ="/img/w.jpeg"
             />
             </div>
             </div>
@@ -44,7 +44,7 @@ function Home() {
             title="Africa Shea Butter"
             price={12.99}
             rating={5}
-            image ="./shea.jpg"
+            image ="/img/shea.jpg"
             />
             </div>
             <div className="Home_rowbb">
@@ -53,7 +53,7 @@ function Home() {
             title="Paani Meat Pie"
             price={7.99}
             rating={5}
-            image ="./pie.jpg"
+            image ="/img/pie.jpg"
             />
             </div>
             </div>
@@ -65,7 +65,7 @@ function Home() {
             title="Paani Goat Suya"
             price={15.99}
             rating={5}
-            image ="./suya.jpg"
+            image ="/img/suya.jpg"
             />
             </div>
             <div className="Home_rowbb">
@@ -74,7 +74,7 @@ function Home() {
             title="Okra"
             price={4.99}
             rating={5}
-            image ="./okra.jpg"
+            image ="/img/okra.jpg"
             />
             </div>
             <div className="Home_rowcc">
@@ -83,7 +83,7 @@ function Home() {
             title="Zomi African Palm Oil"
             price={10.99}
             rating={5}
-            image ="./palm.jpg"
+            image ="/img/palm.jpg"
             />
             </div>
             </div>
@@ -95,7 +95,7 @@ function Home() {
             title="Paani Egusi Soup"
             price={9.99}
             rating={5}
-            image ="./egusi.jpg"
+            image ="/img/egusi.jpg"
             />
             </div>
             <div className="Home_rowbb">
@@ -104,7 +104,7 @@ function Home() {
             title="Taste of Caribbean Plantain Chips"
             price={3.99}
             rating={5}
-            image ="./chip.jpg"
+            image ="/img/chip.jpg"
             />
             </div>
             </div>
@@ -116,7 +116,7 @@ function Home() {
             title="Ola Ola Pounded Yam"
             price={9.99}
             rating={4}
-            image ="./iyan.jpg"
+            image ="/img/iyan.jpg"
             />
             </div>
             <div className="Home_rowbb">
@@ -125,7 +125,7 @@ function Home() {
             title="Paani Steamed Ugwu"
             price={6.99}
             rating={5}
-            image ="./ugwu.jpg"
+            image ="/img/ugwu.jpg"
             />
             </div>
             <div className="Home_rowcc">
@@ -134,7 +134,7 @@ function Home() {
             title="Gari Ijebu"
             price={10.99}
             rating={4}
-            image ="./gari.jpg"
+            image ="/img/gari.jpg"
             />
             </div>
             </div>

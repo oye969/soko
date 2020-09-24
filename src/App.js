@@ -1,39 +1,47 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Header from './Header';
-import Home from './Home';
-import Checkout from './Checkout';
-import Login from './Login';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Checkout from './Components/Checkout';
+import Login from './Components/Login';
+import TrackYourOrder from './Components/TrackYourOrder';
+import Coupons from './Components/Coupons';
+import Footer from './Components/Footer';
+
+
+
+
 
 function App() {
   return (
       <Router>
-          <div className="App">
+        <div className="App">
         <Switch>
       <Route path="/track">
         <Header />
-          <h1>Track Your Order</h1>
+        <TrackYourOrder />
       </Route>
       <Route path="/coupons">
-          <Header />
-          <h1>Coupons</h1>
-        </Route>
-        <Route path="/checkout">
-          <Header />
-          <Checkout />
-        </Route>
-        <Route path="/login">
-          <Header />
+        <Header />
+        <Coupons />   
+      </Route>
+      <Route path="/checkout">
+        <Header />
+        <Checkout />
+      </Route>
+      <Route path="/login">
+        <Header />
         <Login />
-        </Route>
-        <Route path="/">
-          <Header />
-          <Home />
-        </Route>
-      </Switch>
-    </div>
-    </Router>
+      </Route>
+      <Route path="/">
+        <Header />
+        <Home />
+        <Footer />
+      </Route>
+        </Switch>
+        </div>
+      </Router>
     
   );
 }
