@@ -11,6 +11,10 @@ function CheckoutProduct({id, title, image, price, rating}) {
             type: "REMOVE_FROM_BASKET",
             id: id,
         });
+        basket({
+            type: "",
+            id: id,
+        });
     };
 
 
